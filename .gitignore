@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+cam_test_*.jpg
+test_cam_*.jpg
+inspect_*.png
+best_camera_test.jpg
+test_live_rendering.py
+find_real_webcam.py
+test_camera_robust.py
+.DS_Store

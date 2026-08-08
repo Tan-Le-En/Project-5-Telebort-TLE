@@ -1,0 +1,39 @@
+=====================================
+FACE DETECTOR - SETUP INSTRUCTIONS
+=====================================
+
+Before running the face detector, you need to download the Haar Cascade file.
+
+STEP 1: Download the Haar Cascade Classifier
+---------------------------------------------
+Download 'haarcascade_frontalface_default.xml' from:
+https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_frontalface_default.xml
+
+Save it in the same folder as the Python files.
+
+STEP 2: Add a Test Image (for Part 1)
+-------------------------------------
+Add a photo with faces named 'sample.jpg' to this folder.
+Use any photo with 1 or more faces visible.
+
+STEP 3: Install OpenCV
+----------------------
+Open terminal/command prompt and run:
+pip install opencv-python
+
+STEP 4: Run the Programs
+------------------------
+Part 1 (Image Detection):
+  python image.py         # Student template
+  python image_solution.py  # Complete solution
+
+Part 2 (Video Detection):
+  python video.py         # Student template
+  python video_solution.py  # Complete solution
+
+TROUBLESHOOTING:
+- "No module named cv2": Run pip install opencv-python
+- "File not found": Make sure XML file is in the same folder
+- Webcam not working: Try VideoCapture(1) instead of (0)
+
+Happy Face Detecting!
